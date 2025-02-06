@@ -359,7 +359,7 @@ void q_circuit::remove_gate()
     std::cout<<"What gate would you like to remove?"<<std::endl;
     std::cout<<"Options:"<<std::endl;
     for(size_t k{1}; k < longest_row; k++){
-      for(size_t i{0}; i < num_qubits; i++){
+      for(int i{0}; i < num_qubits; i++){
         circuit_element gate = components_vector[i][k];
         std::string symbol = gate.second->get_symbol();
         if(symbol != "[I]" && symbol != "•"){
