@@ -130,4 +130,4 @@ quantum_circuit_cli/
 │── README.md                # Documentation
 ```
 
-Developed as a university project as an exercise in learning basic quantum computing concepts and core OOP in C++ principles.
+Developed as a project whilst at The University of Manchester as an exercise in learning basic quantum computing concepts and core OOP in C++ principles.
